@@ -19,63 +19,62 @@
 </head>
 <body>
 
-  <div class="container-fluid">
-  <!--NAVIGATION BAR-->
-    <div class="container">
-      <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item home">
-                  <a class="nav-link active" aria-current="page" href="#main">Home</a>
-                </li>
-                <li class="nav-item about">
-                  <a class="nav-link" aria-current="page" href="#profile">About me</a>
-                </li>
-                <li class="nav-item project">
-                  <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item article">
-                  <a class="nav-link" href="#articles">Articles</a>
-                </li>
-                <li class="nav-item contact">
-                  <a class="nav-link" href="#articles">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <!--Hero page-->
-    <div class="container">
-      <section class="hero">
-        <div class="hero-inner ">
-          <div class="row">
-            <div class="" >
-              <h5 class="pb-3">Hello, I'm </h5>
-              <h1>Tharushi Chamalsha</h1>
-              <h2>I build things for the web.</h2>
-              <div class="col-sm-6 pt-5" data-aos="fade-up">
-                <h6>I'm a student with eager to learn new skills which is
-                  currently studying Software Engineering degree program at 
-                    University of Kalaniya. Currently, I’m focused on frontend and backend developing. </h6>
-              </div>
-            </div>
+<!--Hero page-->
+  <div class="head">
+    <div class="navigation justify-content-center align-items-center d-flex">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item home">
+                <a class="nav-link active" aria-current="page" href="#main">Home</a>
+              </li>
+              <li class="nav-item about">
+                <a class="nav-link" aria-current="page" href="#profile">About me</a>
+              </li>
+              <li class="nav-item project">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item article">
+                <a class="nav-link" href="#articles">Articles</a>
+              </li>
+              <li class="nav-item contact">
+                <a class="nav-link" href="#articles">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+      </nav>
     </div>
 
+    
+      <section class="container hero">
+        
+          <div class="row bg-transparent d-flex justify-content-center">
+            <div class="col-sm-9">
+              <h5 class="pb-3">Hello, I'm </h5>
+              <h1>Tharushi <br> Chamalsha</h1>
+              <h2>I build things for the web.</h2>
+              <h6>I'm a student with eager to learn new skills which is
+                currently studying Software Engineering degree program at 
+                  University of Kalaniya. Currently, I’m focused on frontend and backend developing. </h6>
+            
+            </div>
+          </div>
+       
+      </section>
+    
+  </div>
+
+  <!--profile-->
+  </div>
     <div class="container profile" id="profile">
         
       <div class="row justify-content-center">
-        <div class="col-md-4 d-flex justify-content-center mb-3">
+        <div class="col-md-4 ml-5">
           <img src="assets/9FAE693B-4154-473C-92A9-22F4A3BB5FBC_1_105_c.jpeg" alt="">
         </div>
         <h2 id="sub-titles">ABOUT ME</h2>
@@ -94,11 +93,11 @@
         </div>
       </div>
 
-      <div class="container services m-0 m-lg-4" >
+      <div class="container services  m-4" >
         
         <div class="row justify-content-center">
 
-          <div class="col-lg-3 box p-3" data-aos="fade-right">
+          <div class="col-sm-3 box p-3" data-aos="fade-right">
 
             <span class="text mt-3"> 
               <h3 class="p-4"><span class="p-2">Soft Skills</span></h3>
@@ -126,7 +125,7 @@
             </span>
           </div>
          
-            <div class="col-lg-6 box graphic text-center p-3" data-aos="fade-left">
+            <div class="col-sm-6 box graphic text-center p-3" data-aos="fade-left">
   
               <span class="text mt-3"> 
                 <h3 class="p-4"><span class="p-2">Technical Skills</span></h3>
@@ -167,12 +166,12 @@
 
       <div class="container projects pt-5" id="projects">
         <h2 id="sub-titles">PROJECTS</h2>
-        <div class="row justify-content-center mt-3">
+        <div class="row justify-content-center">
           <div class="col-md-1 horizontal-rule" data-aos="fade-right">
         </div>
 
-        <div class="row p-0 p-lg-5">
-          <div class="col-md-6">
+        <div class="row p-5">
+          <div class="col-lg-6">
             <ul>
               <li class="project-name">EMPLOYEE MANAGEMENT SYSTEM</li>
               <div class="project-content pt-3 pl-2" data-aos="fade-up">
@@ -265,83 +264,83 @@
 
       <!--Articles-->
 
-      <div class="conatainer articles mt-5" id="articles">
+      <div class="conatainer articles " id="articles">
         <h2 id="sub-titles">ARTICLES</h2>
         <div class="row justify-content-center">
           <div class="col-md-1 horizontal-rule" data-aos="fade-right">
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-10 article m-5">
+          <div class="col-md-8 article m-5">
             <h6 class="date">Aug 26</h6>
             <h4 class="article-name pb-2">Design Patterns</h4>
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-8">
                 <p class="article-desc">Design pattern is a quality and general solution for the problems frequently 
                   emerged in software development process. Design patterns are used to represent some of the best practices...
                 </p>
               </div>
               <div class="col-1"></div>
-              <div class="col-md-3 mb-5">
+              <div class="col-3 ">
                 <img src="assets/Screenshot 2022-09-08 at 20.46.04.png" alt="">
               </div>
             </div>
             
             <div class="row mb-5">
-              <div class="col-auto"><span>Design Patterns</span></div>
-              <div class="col-auto time">4 min</div>
+              <div class="col-3"><span>Design Patterns</span></div>
+              <div class="col-2 time">4 min</div>
             </div>
             <hr>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-10 article m-5">
+          <div class="col-md-8 article m-5">
             <h6 class="date">Oct 22, 2020</h6>
             <h4 class="article-name pb-2">Installing Ubuntu on a SD Card</h4>
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-8">
                 <p class="article-desc">Linux is an open source operating system which uses small 
                   space to store and it could be customize as well. So in this chapter we will learn 
                   to install an operating system to a SD card. Most probably this task is done in order to use an arduino board...
                 </p>
               </div>
               <div class="col-1"></div>
-              <div class="col-md-3 mb-5">
+              <div class="col-3 ">
                 <img src="assets/Screenshot 2022-09-08 at 20.53.07.png" alt="">
               </div>
             </div>
             
             <div class="row mb-5">
-              <div class="col-auto"><span >Ubuntu</span></div>
-              <div class="col-auto time">3 min</div>
+              <div class="col-3"><span >Ubuntu</span></div>
+              <div class="col-2 time">3 min</div>
             </div>
             <hr>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-10 article m-5">
+          <div class="col-md-8 article m-5">
             <h6 class="date">Jan 5, 2021 </h6>
             <h4 class="article-name pb-2">Hosting a website on Firebase and setting a custom domain</h4>
             <div class="row">
-              <div class="col-md-8">
+              <div class="col-8">
                 <p class="article-desc">Firebase is a user friendly platform which can be used to deploy our websites free of charge. 
                   It is Google’s mobile application development platform that helps us to build, improve and grow our applications. 
                   And also Firebase is a realtime database which enables to store and sync data at anytime...
                 </p>
               </div>
               <div class="col-1"></div>
-              <div class="col-md-3 mb-5">
+              <div class="col-3 ">
                 <img src="assets/Screenshot 2022-09-08 at 20.53.33.png" alt="">
               </div>
             </div>
             
             <div class="row mb-5">
-              <div class="col-auto"><span>Hosting</span></div>
-              <div class="col-auto time">3 min</div>
+              <div class="col-3"><span class="p-4">Hosting</span></div>
+              <div class="col-2 time">3 min</div>
             </div>
             
           </div>
           <div class="row justify-content-end">
-            <div class="col-auto">
+            <div class="col-3">
               <a href="https://tharu-chamalsha.medium.com"><button type="button" class="btn btn-sm">See all Articles</button></a>
             </div>
           </div>
