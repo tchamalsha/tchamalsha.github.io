@@ -131,6 +131,7 @@
     color: black;
     font-family: 'Combo', cursive;
     font-weight: bold;
+    background-color: transparent;
 }
 .profile img{
     clip-path: circle();
@@ -164,31 +165,69 @@
 }
 
 /*Articles*/
-.articles .date{
-    color: #8d8d8d;
-}
-.articles .article-name{
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+
+ .article-slider{
+    width: 100vw;
+    white-space: nowrap;
+    background-size: cover;
+    overflow-x: scroll;
+    overflow-x: scroll;
+    background-color: transparent;
     
-}
-.articles .article-desc{
-    font-family: 'Lora', serif;
-}
-.articles span{
-    background-color: #e6e1e1;
-    border-radius: 10px;
-    padding: 10px;
-    
-}
-.articles img{
-    clip-path: none;
-    width: 60%;
-}
-.articles .time{
-    color: #8d8d8d;
+
 }
 
+
+ .article-slider .article-card{
+  
+    position: relative;
+    display: inline-block;
+    border-color: #000 solid 2px;
+    background-color: #f7f1f1;
+    border-radius: 10px;
+    width: 30%;
+    
+  
+ }
+ .article-slider .article-card img{
+  
+    border-radius: 10px;
+  
+ }
+.article-slider .article-card .text{
+    white-space: normal;
+    background-color: transparent;
+    
+}
+
+.article-slider .article-card button{
+    background-color: #8d8d8d;
+    border-color: #8d8d8d;
+}
+
+.article-slider .article-card button:hover{
+    background-color: #A27B5C;
+    border-color: #A27B5C ;
+}
+
+.article-slider .article-card h4{
+    color: #000000;
+}
+
+.article-slider .article-card .hashtag{
+    font-size: 1.7vh;
+    color: #A27B5C;
+    border-radius: 3px;
+}
+
+.article-slider .article-card .date{
+    font-size: 1.5vh;
+    color: #7F8487;
+}
+.article-slider .article-card .time{
+    font-size: 1.5vh;
+    color: #7F8487;
+}
 .services .box{
     border: #A27B5C 3px solid;
     border-radius: 3rem;
