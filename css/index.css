@@ -158,10 +158,11 @@
 .projects button{
     background-color: #8d8d8d;
     border-color: #8d8d8d;
+    color: white;
 }
 .projects button:hover{
     background-color: #A27B5C;
-    border-color: #A27B5C;
+    border-color: #A27B5C ;
 }
 
 /*Articles*/
