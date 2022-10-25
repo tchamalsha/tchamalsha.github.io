@@ -137,6 +137,46 @@
     clip-path: circle();
     width: 70%;
 }
+
+
+/*skills*/
+
+
+
+.services .box{
+    border: #A27B5C 3px solid;
+    border-radius: 3rem;
+    opacity: 0.5;
+}
+.services .box{
+    display: inline-block;
+    margin: 4%;
+}
+.services .box .text{
+
+    position: relative;
+    text-align: justify;
+    opacity: none;
+    color: black;
+}
+.text h3{
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+.text h3 span{
+    background-color: #e6e1e1;
+    border-radius: 10px;
+   
+}
+
+.text .soft-skills ul li{
+    padding:5px;
+    font-size: 1rem;
+    list-style-type: square;
+    
+}
+
 /*projects*/
 .projects .project-name{
     font-size: 1.2rem;
@@ -264,47 +304,13 @@ background-color: transparent;
     outline: 2px solid #A27B5C;  
 }
 
-
-
-
-
-
-
-
-
-.services .box{
-    border: #A27B5C 3px solid;
-    border-radius: 3rem;
-    opacity: 0.5;
-}
-.services .box{
-    display: inline-block;
-    margin: 4%;
-}
-.services .box .text{
-
-    position: relative;
-    text-align: justify;
-    opacity: none;
-    color: black;
-}
-.text h3{
-    background-color: transparent;
-    font-size: 1.2rem;
-    color: white;
-}
-.text h3 span{
-    background-color: black;
-    border-radius: 10px;
-   
+.contact .contain button:hover{
+    color: #ffffff;
 }
 
-.text .soft-skills ul li{
-    padding:5px;
-    font-size: 1rem;
-    list-style-type: square;
-    
-}
+
+/*footer*/
+
 .profile .profile-upper{
     background-image: url('/assets/background/6.png');
     background-size: cover;
@@ -325,8 +331,18 @@ background-color: transparent;
     width: 6vh;
     clip-path: circle();
 }
+.profile .cycle:hover{
+    background-color: #A27B5C;
+    
+}
+.profile .cycle .fa:hover{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 3.5vh;
+}
 .profile .cycle .fa{
-    background-color: #F3F1F5;
+    background-color: transparent;
     color: black;
     text-align: center;
     font-size: 3.5vh;
@@ -334,12 +350,7 @@ background-color: transparent;
 .profile .footer p{
     text-align: center;
 }
-.profile .footer{
-    background-image: url('/assets/background/2.png');
-    background-size: cover;
-    width: 100vw;
-    height: fit-content;
-}
+
 .horizontal-rule{
     height: 0.5vh;
     width: 15vh;
