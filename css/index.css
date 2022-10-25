@@ -229,6 +229,49 @@
     font-size: 1.5vh;
     color: #7F8487;
 }
+
+
+/*contact*/
+
+
+.contact .contain{
+   padding: 10px;
+   
+    background: rgb(239, 239, 239);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+   }
+.contact .contain img{
+    border-radius: 10px;
+}
+.contact .contain p{
+background-color: transparent;
+}
+
+.contact input{
+    width: 100%;
+    border-radius: 5px;
+    height: 5vh;
+    border: 1px solid #d3b59c;
+}
+.contact textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d3b59c;
+}
+.contact input:focus,textarea:focus{
+    outline: 2px solid #A27B5C;  
+}
+
+
+
+
+
+
+
+
+
 .services .box{
     border: #A27B5C 3px solid;
     border-radius: 3rem;
