@@ -197,7 +197,11 @@
     border-color: #A27B5C;
     color: #e6e1e1;
  }
- 
+ .services .content button:focus{
+    background-color: transparent;
+    box-shadow: transparent;
+    
+ }
 /*projects*/
 .projects .project-name{
     font-size: 1.2rem;
