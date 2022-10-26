@@ -150,7 +150,7 @@
 }
 .services .box{
     display: inline-block;
-    margin: 4%;
+   
 }
 .services .box .text{
 
@@ -161,7 +161,7 @@
 }
 .text h3{
     background-color: transparent;
-    font-size: 1.2rem;
+    font-size: 2vh;
     color: rgb(0, 0, 0);
 }
 .text h3 span{
@@ -172,11 +172,32 @@
 
 .text .soft-skills ul li{
     padding:5px;
-    font-size: 1rem;
+    font-size: 1.7vh;
     list-style-type: square;
     
 }
+.services .content h1{
+    font-size: 6vh;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    color: #000000;
+}
+.services .content p{
+    font-size: 2vh;
+    color: #8d8d8d;
+}
+.services .content button{
+   background-color: #d3b59c;
+   border-color: #d3b59c;
+   color: #000;
+}
 
+.services .content button:hover{
+    background-color: #A27B5C;
+    border-color: #A27B5C;
+    color: #e6e1e1;
+ }
+ 
 /*projects*/
 .projects .project-name{
     font-size: 1.2rem;
@@ -370,6 +391,13 @@ background-color: transparent;
    .hero h2{
     font-size: 2em;
    }
+
+   .article-slider .article-card{
+
+    width: 100%;
+    
+  
+ }
   
 
     
